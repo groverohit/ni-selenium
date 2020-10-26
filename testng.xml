@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  
+  <test name="Validating Home Page">
+    <classes>
+      <class name="ni.automation.ni_selenium.HomePage"/>
+      </classes>
+      </test>
+      
+      
+       <test name="Validating Appointment Page">
+       <classes>
+      <class name="ni.automation.ni_selenium.AppointmentPage"/>
+      </classes>
+      </test>
+      
+      <test name="Validating Contact Page">
+      <classes>
+      <class name="ni.automation.ni_selenium.ContactPage"/>
+      </classes>
+      </test>
+      
+      <test name="App testing">
+      <classes>
+      <class name="ni.automation.ni_selenium.AppTest"/>
+      </classes>
+      </test>
+      
+      <test name="Validating About Us Page">
+      <classes>
+      <class name="ni.automation.ni_selenium.AboutUsPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

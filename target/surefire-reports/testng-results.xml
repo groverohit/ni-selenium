@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-26T09:26:30 PDT" name="Suite" finished-at="2020-10-26T09:27:11 PDT" duration-ms="41345">
+    <groups>
+    </groups>
+    <test started-at="2020-10-26T09:26:30 PDT" name="Validating Home Page" finished-at="2020-10-26T09:26:44 PDT" duration-ms="14030">
+      <class name="ni.automation.ni_selenium.HomePage">
+        <test-method is-config="true" signature="inintializeDriver()[pri:0, instance:ni.automation.ni_selenium.HomePage@10f7f7de]" started-at="2020-10-26T09:26:30 PDT" name="inintializeDriver" finished-at="2020-10-26T09:26:33 PDT" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inintializeDriver -->
+        <test-method signature="testSocialIcons()[pri:0, instance:ni.automation.ni_selenium.HomePage@10f7f7de]" started-at="2020-10-26T09:26:33 PDT" name="testSocialIcons" finished-at="2020-10-26T09:26:38 PDT" duration-ms="5079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocialIcons -->
+        <test-method signature="testLinks()[pri:1, instance:ni.automation.ni_selenium.HomePage@10f7f7de]" started-at="2020-10-26T09:26:38 PDT" name="testLinks" finished-at="2020-10-26T09:26:43 PDT" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinks -->
+        <test-method signature="testStaticButtons()[pri:2, instance:ni.automation.ni_selenium.HomePage@10f7f7de]" started-at="2020-10-26T09:26:43 PDT" name="testStaticButtons" finished-at="2020-10-26T09:26:43 PDT" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStaticButtons -->
+        <test-method signature="testLogo()[pri:3, instance:ni.automation.ni_selenium.HomePage@10f7f7de]" started-at="2020-10-26T09:26:43 PDT" name="testLogo" finished-at="2020-10-26T09:26:43 PDT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ni.automation.ni_selenium.HomePage@10f7f7de]" started-at="2020-10-26T09:26:43 PDT" name="teardown" finished-at="2020-10-26T09:26:44 PDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ni.automation.ni_selenium.HomePage -->
+    </test> <!-- Validating Home Page -->
+    <test started-at="2020-10-26T09:26:49 PDT" name="Validating Appointment Page" finished-at="2020-10-26T09:26:53 PDT" duration-ms="4304">
+      <class name="ni.automation.ni_selenium.AppointmentPage">
+        <test-method is-config="true" signature="inintializeDriver()[pri:0, instance:ni.automation.ni_selenium.AppointmentPage@60b4beb4]" started-at="2020-10-26T09:26:49 PDT" name="inintializeDriver" finished-at="2020-10-26T09:26:52 PDT" duration-ms="3181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inintializeDriver -->
+        <test-method signature="testRequiredAppointmentFields()[pri:0, instance:ni.automation.ni_selenium.AppointmentPage@60b4beb4]" started-at="2020-10-26T09:26:52 PDT" name="testRequiredAppointmentFields" finished-at="2020-10-26T09:26:52 PDT" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequiredAppointmentFields -->
+        <test-method signature="testLocationOptions()[pri:1, instance:ni.automation.ni_selenium.AppointmentPage@60b4beb4]" started-at="2020-10-26T09:26:52 PDT" name="testLocationOptions" finished-at="2020-10-26T09:26:52 PDT" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLocationOptions -->
+        <test-method signature="testServiceOptions()[pri:2, instance:ni.automation.ni_selenium.AppointmentPage@60b4beb4]" started-at="2020-10-26T09:26:52 PDT" name="testServiceOptions" finished-at="2020-10-26T09:26:53 PDT" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServiceOptions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ni.automation.ni_selenium.AppointmentPage@60b4beb4]" started-at="2020-10-26T09:26:53 PDT" name="teardown" finished-at="2020-10-26T09:26:53 PDT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ni.automation.ni_selenium.AppointmentPage -->
+    </test> <!-- Validating Appointment Page -->
+    <test started-at="2020-10-26T09:26:53 PDT" name="Validating Contact Page" finished-at="2020-10-26T09:26:59 PDT" duration-ms="6303">
+      <class name="ni.automation.ni_selenium.ContactPage">
+        <test-method is-config="true" signature="inintializeDriver()[pri:0, instance:ni.automation.ni_selenium.ContactPage@38ba6ce3]" started-at="2020-10-26T09:26:53 PDT" name="inintializeDriver" finished-at="2020-10-26T09:26:59 PDT" duration-ms="6045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inintializeDriver -->
+        <test-method signature="testContactButtons()[pri:0, instance:ni.automation.ni_selenium.ContactPage@38ba6ce3]" started-at="2020-10-26T09:26:59 PDT" name="testContactButtons" finished-at="2020-10-26T09:26:59 PDT" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactButtons -->
+        <test-method signature="testRequiredMessageFields()[pri:1, instance:ni.automation.ni_selenium.ContactPage@38ba6ce3]" started-at="2020-10-26T09:26:59 PDT" name="testRequiredMessageFields" finished-at="2020-10-26T09:26:59 PDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequiredMessageFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ni.automation.ni_selenium.ContactPage@38ba6ce3]" started-at="2020-10-26T09:26:59 PDT" name="teardown" finished-at="2020-10-26T09:26:59 PDT" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ni.automation.ni_selenium.ContactPage -->
+    </test> <!-- Validating Contact Page -->
+    <test started-at="2020-10-26T09:27:04 PDT" name="App testing" finished-at="2020-10-26T09:27:04 PDT" duration-ms="0">
+      <class name="ni.automation.ni_selenium.AppTest">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:ni.automation.ni_selenium.AppTest@6e005dc9]" started-at="2020-10-26T09:27:04 PDT" name="shouldAnswerWithTrue" finished-at="2020-10-26T09:27:04 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- ni.automation.ni_selenium.AppTest -->
+    </test> <!-- App testing -->
+    <test started-at="2020-10-26T09:27:04 PDT" name="Validating About Us Page" finished-at="2020-10-26T09:27:11 PDT" duration-ms="6664">
+      <class name="ni.automation.ni_selenium.AboutUsPage">
+        <test-method is-config="true" signature="inintializeDriver()[pri:0, instance:ni.automation.ni_selenium.AboutUsPage@301eda63]" started-at="2020-10-26T09:27:04 PDT" name="inintializeDriver" finished-at="2020-10-26T09:27:08 PDT" duration-ms="3925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inintializeDriver -->
+        <test-method signature="testPageTitle()[pri:0, instance:ni.automation.ni_selenium.AboutUsPage@301eda63]" started-at="2020-10-26T09:27:08 PDT" name="testPageTitle" finished-at="2020-10-26T09:27:08 PDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method signature="testHomeLink()[pri:1, instance:ni.automation.ni_selenium.AboutUsPage@301eda63]" started-at="2020-10-26T09:27:08 PDT" name="testHomeLink" finished-at="2020-10-26T09:27:09 PDT" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeLink -->
+        <test-method signature="testMemberPages()[pri:2, instance:ni.automation.ni_selenium.AboutUsPage@301eda63]" started-at="2020-10-26T09:27:09 PDT" name="testMemberPages" finished-at="2020-10-26T09:27:11 PDT" duration-ms="2222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberPages -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ni.automation.ni_selenium.AboutUsPage@301eda63]" started-at="2020-10-26T09:27:11 PDT" name="teardown" finished-at="2020-10-26T09:27:11 PDT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ni.automation.ni_selenium.AboutUsPage -->
+    </test> <!-- Validating About Us Page -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,6 @@
+09:26:52.773 [main] INFO  resources.Base - Location dropdown options on Appointment form on Appointment page verified
+09:26:53.417 [main] INFO  resources.Base - Type of Service dropdown options on Appointment form on Appointment page verified
+09:26:54.296 [main] INFO  resources.Base - Driver initialized
+09:26:59.604 [main] INFO  resources.Base - Contact Buttons on Contact page verified
+09:26:59.718 [main] INFO  resources.Base - The Send Message form rrequired field on Contact page verified
+09:27:05.689 [main] INFO  resources.Base - Driver Initialized
